@@ -19,7 +19,7 @@ public class AtmInterface {
                     withdrawl = sc.nextInt();
                     if (acc_balance >= withdrawl) {
                         acc_balance = acc_balance - withdrawl;
-                        System.out.println("Collect your money:");
+                        System.out.println("Collect your money.");
                     } else {
                         System.out.println("Unable to withdrawl insufficient balance.");
                     }
